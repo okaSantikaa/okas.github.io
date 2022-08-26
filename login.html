@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesi 5</title>
+</head>
+
+<body>
+
+    <!-- INI KONTEN KITA -->
+    <div id="root">
+        <div id="reg-button">
+            <input type="text" placeholder="reg username" id="reg-usernameInput">
+            <input type="password" placeholder="reg password" id="reg-passwordInput">
+            <button onclick="onReg()" id="regButton">REGISTER</button>
+        </div>
+
+        <div id="log-button">
+            <input type="text" placeholder="log username" id="usernameInput">
+            <input type="password" placeholder="log password" id="passwordInput">
+            <button onclick="onLogin()" id="loginButton">LOGIN</button>
+            <button onclick="onLogout()" id="logoutButton">LOGOUT</button>
+        </div>
+        <br>
+        <h2 id="admin">login sebagai admin</h2>
+        <h2 id="user">login sebagai user</h2>
+
+    </div>
+
+
+
+    <script src="scrip.js"></script>
+</body>
+
+</html>
